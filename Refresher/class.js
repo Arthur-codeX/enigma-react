@@ -32,6 +32,10 @@
 
 // Inheritance. Animal kingdom
 
+class Multi {
+  code = "Text";
+}
+
 class Kingdom {
   next_hirachy = null;
 
