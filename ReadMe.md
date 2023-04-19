@@ -8,10 +8,33 @@
 
 ## Refresher
 
--- Classes.
 -- Async
--- Try Catch
--- Js Time( intervals)
+-- Node Js
+-- Classes.
+-- Promises,Try Catch
+-- Short Circuit
 
-# Learning 
+-- Destruture objects
+-- CallBacks
+
+# Learning
+
 # A Repo.
+
+# -> React.
+
+# Js Library.
+
+# CRA <Create React APP>
+
+# Vite <>
+
+----
+
+----
+
+-- Import css
+-- Importing Images: <>
+-- Bootstraps
+
+-- Components in deper

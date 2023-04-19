@@ -71,3 +71,8 @@ async function tryIt() {
 }
 tryIt();
 console.log("Final Code");
+
+// NodeJs. Runtime enviroment for js
+// npm <Node Package Manager>
+// TO intialize a project using npm npm init.
+// Package.json
