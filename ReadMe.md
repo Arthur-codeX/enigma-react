@@ -33,6 +33,7 @@
 
 ----
 
+-- Components.
 -- Import css
 -- Importing Images: <>
 -- Bootstraps
