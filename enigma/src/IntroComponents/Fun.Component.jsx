@@ -4,6 +4,8 @@
 
 import "./fun.css";
 
+// import "./../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 import "./../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 import Car from "./Class.Component";
@@ -15,8 +17,9 @@ import puppy from "./download.jpg";
 function Fun() {
   //js Code/
   // Can have other function inside your components.
-  function sum(a, b) {
-    return a + b;
+  function sum() {
+    // return a + b;
+    return "bg-yellow bg-green";
   }
   //class class-> // className
 
@@ -25,11 +28,17 @@ function Fun() {
     backgroundColor: "red",
   };
 
+  let clases1 = "bg-yellow bg-green";
+  let clases2 = "bg-yellow bg-green";
+
   return (
     <div>
       <div>
         {/* Other componetns  */}
-        <h1 className="bg-yellow">Hello World. Intro to components</h1>
+        <h1 className={`${clases1} ${clases2}`}>
+          Hello World. Intro to components
+        </h1>
+        <h1 className={sum()}>Hello World. Intro to components</h1>
         <h1 style={theStyles}>Hello World. Intro to components</h1>
         <button type="button" className="btn btn-primary">
           Primary

@@ -8,12 +8,19 @@ import Fun from "./IntroComponents/Fun.Component";
 // Client Side rendering.
 // Server side rendering.
 
+import Dynamic from "./DynamicData/Dynamic";
+import Prop from "./Prop/Prop";
+
+import State from "./UseState/State";
+
+import Event from "./Events/Event";
+
 const root = ReactDOM.createRoot(document.getElementById("roots"));
 root.render(
   <React.StrictMode>
     {/* <Fun />
     <Car /> */}
     {/* <h1>HEllo World</h1> */}
-    <Fun />
+    <State />
   </React.StrictMode>
 );
