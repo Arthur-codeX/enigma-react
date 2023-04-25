@@ -5,7 +5,6 @@ const items = [
     name: "Cool Keyboard",
     price: 139,
   },
-
   {
     id: 1,
     src: "https://m.media-amazon.com/images/I/61eavECexVL._AC_UY218_.jpg",

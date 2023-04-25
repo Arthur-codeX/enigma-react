@@ -13,6 +13,9 @@ const CartMiniProject = () => {
   //boolean
   const [cartStatus, setCartStatus] = useState(false);
 
+  //show Cart
+  // Hide Cart
+
   return (
     <div className="full_screen">
       <Header />

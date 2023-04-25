@@ -8,7 +8,7 @@ const ItemSection = ({ setItems, items }) => {
 
   return (
     <div style={{ display: "flex", flex: 1, flexWrap: "wrap" }}>
-      {SampleItems.map((doc) => {
+      {SampleItems.map((doc, index) => {
         return (
           <Card key={doc.id} doc={doc} setItems={setItems} items={items} />
         );

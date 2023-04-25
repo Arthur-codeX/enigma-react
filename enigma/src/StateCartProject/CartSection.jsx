@@ -1,6 +1,7 @@
-const Cart = ({ items, cartStatus, setCartStatus }) => {
+const Cart = ({ items, cartStatus = null, setCartStatus = () => {} }) => {
   // items an array
 
+  // Togle the status
   function handleCartStatus() {
     if (cartStatus === true) {
       setCartStatus(false);

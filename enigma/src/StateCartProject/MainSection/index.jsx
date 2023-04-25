@@ -15,6 +15,7 @@ const MainSection = ({ setItems, items, cartStatus, setCartStatus }) => {
         />
       )} */}
 
+      {/* Conditional rendering */}
       {cartStatus === true ? (
         <CartSection
           items={items}

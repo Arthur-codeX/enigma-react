@@ -11,6 +11,8 @@ const Card = ({ doc, setItems, items }) => {
     // setItems(newItems);
 
     // Method 2
+    // copy all of the old items and add a new item.
+    //
     setItems([doc, ...items]);
   }
 

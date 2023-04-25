@@ -10,6 +10,7 @@ const CartSection = ({ items, setItems, setCartStatus }) => {
 
     for (let item of items) {
       if (item.id === doc.id) {
+        // This item needs to be removed.
       } else {
         newItems.push(item);
       }
@@ -27,6 +28,7 @@ const CartSection = ({ items, setItems, setCartStatus }) => {
         </button>
       </div>
       {items.map((doc) => {
+        // Card Section
         return (
           <div style={{ margin: "10px", border: "2px solid black" }}>
             <p>{doc.name}</p>

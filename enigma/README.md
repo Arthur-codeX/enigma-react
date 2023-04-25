@@ -1,35 +1,10 @@
-### Components.
+# Code Challenge.
 
--- Independent and reusable bit of code. <.jsx>//
--- Class components And Functional Components.
+use the exsting fork.
+Remove duplicate items from cart.
+Have item qty in the cart.
+Calulcate the total price. of items in the cart.
+Change qty of items in the cart.
 
-## css in react.
-
--- import public html
--- import it inside a component.<componetn and the children will get the css>
--- import from npm
--- import images
--- Dynamic Data in React
-
-## Props(Parameters)
-
-to make components use-full. We need to pass parameters.ie function.
-Area of circle<r> Area.
-
-
-## Events in React
-addEventlistner('click',function(){})
-tie them into a component.
-// use effect to add events./
-//<button click="function"></button>
-// onClick,onMouseEnter,onMouseLeave
-
-
-## State management. React
-
-Advantages come into play.
-State of something. // Vanilla<Dificult>
-Something changes. and that variable is used somewhere else. it should also change.
-Hooks<react Hooks.> <useState,useRef,useContext>
-
-
+Hint. 
+You dont need to create new state varbles.
