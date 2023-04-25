@@ -15,12 +15,16 @@ import State from "./UseState/State";
 
 import Event from "./Events/Event";
 
+import Refresher from "./StateCartProject/Refresher";
+
+import CartMiniProject from "./StateCartProject";
+
 const root = ReactDOM.createRoot(document.getElementById("roots"));
 root.render(
   <React.StrictMode>
     {/* <Fun />
     <Car /> */}
     {/* <h1>HEllo World</h1> */}
-    <State />
+    <CartMiniProject />
   </React.StrictMode>
 );

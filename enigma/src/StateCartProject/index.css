@@ -1,0 +1,26 @@
+.full_screen {
+  width: 100vw;
+  /* View Width. 100% view width */
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.justify_end {
+  justify-content: end;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.bg_grey {
+  background-color: grey;
+}
