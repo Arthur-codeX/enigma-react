@@ -19,12 +19,14 @@ import Refresher from "./StateCartProject/Refresher";
 
 import CartMiniProject from "./StateCartProject";
 
+import UseEffectComponent from "./UseEffect/UseEffectComponent";
+
 const root = ReactDOM.createRoot(document.getElementById("roots"));
 root.render(
   <React.StrictMode>
     {/* <Fun />
     <Car /> */}
     {/* <h1>HEllo World</h1> */}
-    <CartMiniProject />
+    <UseEffectComponent />
   </React.StrictMode>
 );
